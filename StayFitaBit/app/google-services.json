@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "375193982770",
+    "firebase_url": "https://stayfitabit.firebaseio.com",
+    "project_id": "firebase-stayfitabit",
+    "storage_bucket": "firebase-stayfitabit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375193982770:android:00a4062b48bc0246",
+        "android_client_info": {
+          "package_name": "com.lidago.stayfitabit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375193982770-bou2s7aa4vbs27seal0v58dspb36m3k0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lidago.stayfitabit",
+            "certificate_hash": "AD897A08622D0AD5271AB5E02488171A98366B1D"
+          }
+        },
+        {
+          "client_id": "375193982770-5efboh2ib22oghc344iembc8m9l82n28.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKqrsVCjPZjnp3gU9j2Z45jBZ_ZKoFvFA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375193982770-5efboh2ib22oghc344iembc8m9l82n28.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
