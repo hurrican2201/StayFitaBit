@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="@string/activity"
+        android:id="@+id/history_menu_list_option"
+        app:showAsAction="never">
+        <menu>
+            <group
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/history_all"
+                    android:title="@string/all"
+                    android:checked="true" />
+                <item
+                    android:id="@+id/history_run"
+                    android:title="@string/run" />
+                <item
+                    android:id="@+id/history_pushups"
+                    android:title="@string/pushups" />
+            </group>
+        </menu>
+    </item>
+    <item
+        android:title="@string/order"
+        android:id="@+id/history_menu_order_option"
+        app:showAsAction="never">
+        <menu>
+            <group
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/history_latest"
+                    android:title="@string/latest"
+                    android:checked="true" />
+                <item
+                    android:id="@+id/history_oldest"
+                    android:title="@string/oldest" />
+            </group>
+        </menu>
+    </item>
+</menu>

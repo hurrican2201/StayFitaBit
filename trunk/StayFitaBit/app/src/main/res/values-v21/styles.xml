@@ -1,0 +1,13 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppThemeBase">
+        <!-- v21 only -->
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="ToolbarStyleBase.App">
+        <!-- v21+ only -->
+        <item name="android:elevation">@dimen/default_elevation</item>
+    </style>
+</resources>

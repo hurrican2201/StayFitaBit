@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="@string/stretching"
+        android:id="@+id/run_menu_stretching"
+        app:showAsAction="never"/>
+    <item
+        android:title="@string/map_options"
+        android:id="@+id/run_menu_map_option"
+        app:showAsAction="never">
+        <menu>
+            <group
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/run_menu_map_standard"
+                    android:title="@string/standard"
+                    android:checked="true" />
+                <item
+                    android:id="@+id/run_menu_map_satellite"
+                    android:title="@string/satellite" />
+                <item
+                    android:id="@+id/run_menu_map_hybrid"
+                    android:title="@string/hybrid" />
+                <item
+                    android:id="@+id/run_menu_map_terrain"
+                    android:title="@string/terrain" />
+            </group>
+        </menu>
+    </item>
+</menu>
